@@ -42,9 +42,9 @@ _.each(languagesAll, function (language) {
 });
 
 exports.lookup = lookup({
-    countries: countriesAll,
-    currencies: currenciesAll,
-    languages: languagesAll
+  countries: countriesAll,
+  currencies: currenciesAll,
+  languages: languagesAll
 });
 
 var callingCodesAll = _.reduce(countriesAll, function (codes, country) {
